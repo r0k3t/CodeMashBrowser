@@ -75,6 +75,22 @@ body
 	float: right;
 }
 
+#sessionAdded {
+    display: none;
+    margin: 10px;
+}
+
+
+#sessionAdded .ui-block-b {
+    padding-top: 16px;
+    color: #ff22cc;
+}
+
+.ui-icon-calendar {
+	background: url("../Images/83-calendar.png") 50% 50% no-repeat rgba(255, 255, 255, 1) !important;
+    background-size: 12px 12px;
+}
+
 .clearfix:after
 {
 	visibility: hidden;
@@ -83,4 +99,36 @@ body
 	content: " ";
 	clear: both;
 	height: 0;
+}
+
+#calendarPage
+{
+	background: #000;
+}
+
+.calendarPage_session {
+    background: #f2f2f2;
+    height: 40px;
+}
+
+#calendarContainer {
+    margin-top: -13px;
+}
+
+.calendarDayHeading {
+    font-size: 1.1em;
+    color: #c2c2c2;
+    font-weight: bold;
+    text-shadow: 0 .5px 0 #c6c6c6;
+    width: 100%;
+    border-bottom: solid 1px silver;
+}
+
+.calendarDay {
+   margin: 0px;
+}
+
+.selected {
+    background: #000;
+    
 }
