@@ -66,6 +66,7 @@
     <Content Include="jquery-mobile\jquery.mobile-1.1.1.min.js" />
     <Content Include="js\codemash.js" />
     <Content Include="Images\debut_dark.png" />
+    <Content Include="js\date.format.js" />
     <Content Include="styles\main.css" />
     <Content Include="cordova.ios.js">
       <Platform>iOS</Platform>
